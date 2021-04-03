@@ -275,8 +275,12 @@ img.picture {
 
 img.picture_r {
   width: 300px;
-  margin: 0 5px 10px 10px;
+  margin: 10px 5px 10px 10px;
   float: right;
+  padding: 6px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 18px -4px rgba(0, 0, 0, 0.8);
+  
 }
 
 table.t01 {

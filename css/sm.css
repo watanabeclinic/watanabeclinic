@@ -354,7 +354,10 @@ img.picture_r {
   width: 300px;
   display: block;
   clear: both;
-  margin: 20px auto 20px auto;
+  margin: 10px auto 15px auto;
+  padding: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 12px -4px rgba(0, 0, 0, 0.8);
 }
 
 table.t01 {
