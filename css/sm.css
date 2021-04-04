@@ -360,6 +360,16 @@ img.picture_r {
   box-shadow: 0 3px 12px -4px rgba(0, 0, 0, 0.8);
 }
 
+img.picture_introduction {
+  width: 200px;
+  display: block;
+  clear: both;
+  margin: 10px auto 15px auto;
+  padding: 4px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 12px -4px rgba(0, 0, 0, 0.8);
+}
+
 table.t01 {
   border: solid 1px #bbbbbb;
   border-collapse: collapse;

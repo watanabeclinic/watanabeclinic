@@ -280,7 +280,15 @@ img.picture_r {
   padding: 6px;
   background-color: #FFFFFF;
   box-shadow: 0 3px 18px -4px rgba(0, 0, 0, 0.8);
-  
+}
+
+img.picture_introduction {
+  width: 250px;
+  margin: 10px 5px 10px 10px;
+  float: right;
+  padding: 6px;
+  background-color: #FFFFFF;
+  box-shadow: 0 3px 18px -4px rgba(0, 0, 0, 0.8);
 }
 
 table.t01 {
@@ -635,7 +643,26 @@ span.brown_big_x {
   width: 100% !important;
   height: 100% !important;
   }
-  
+
+  .sideby {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sidebyleft {
+    width: 100%;
+  }
+  .sidebyright {
+    width: 100%;
+  }
+  @media (min-width: 768px) {
+    .sidebyleft {
+      width: 66%;
+    }
+    .sidebyright {
+      width: 34%;
+    }
+  }
+
   @media only screen and (min-width: 768px) {
   .googlecal { padding-bottom: 75%; }
   }
