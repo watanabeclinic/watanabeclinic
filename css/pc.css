@@ -68,6 +68,15 @@ body {
   letter-spacing: 0.05em;
 }
 
+#h_logo h3 a {
+  margin: 0;
+  padding: 0 0 0 30px; 
+  text-align: left;
+  font-size: 20px!important;
+  color: #8f5555;
+  /* letter-spacing: 0.05em;*/
+}
+
 #h_logo a {
   font-size: 30px;
   color: #666666;
